@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('assets/images/aa.webp') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.input-group {
+    position: relative;
+    margin-bottom: 20px;
+    color: black;
+}
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.2);
+    color: black;
+}
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    transform: translateY(-50%);
+    color: white;
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.options a {
+    color: white;
+    text-decoration: none;
+}
+.login-btn {
+    background: white;
+    color: #6a0dad;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+}
+.register-link {
+    margin-top: 20px;
+}
+.register-link a {
+    color: white;
+    text-decoration: none;
+}
+.error-message {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
